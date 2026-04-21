@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-green)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Paper]([https://img.shields.io/badge/Paper-Coming_Soon-red])
+![Paper](https://www.semanticscholar.org/paper/DisinfoNet%3A-A-Comprehensive-Dataset-of-with-and-Shi-Yang/83188be3cda4bb73e217ecf779f3d103b5aa6d2f)
 ![GitHub stars](https://img.shields.io/github/stars/Shizi123-China/LPD-Dataset?style=social)
 
 > 📖 **面向受限感知能力条件的社交网络虚假信息检测与溯源基准数据集**  
