@@ -26,6 +26,22 @@
 | 🎯 **多任务标签** | 同步提供 `检测标签`（图文不符/图像伪造/文本歪曲）、`溯源源集`、`传播风险等级` | 全流程闭环验证 |
 
 ## 📁 Dataset Structure
+LPD-Dataset/
+├── raw/ # 原始采集数据（需脱敏后使用）
+├── processed/ # 清洗对齐后的标准格式
+│ ├── graph/ # 图结构数据（边列表、邻接表、节点特征）
+│ ├── content/ # 多模态内容（文本、图像URL、特征向量）
+│ ├── propagation/ # 级联传播序列与时间戳
+│ └── labels/ # 标注文件（检测/溯源/风险等级）
+├── scenarios/ # 受限感知仿真配置
+│ ├── content_masked/ # 内容遮蔽/加密模拟场景
+│ ├── topology_pruned/ # 拓扑残缺/跨平台割裂场景
+│ └── resource_budget/ # 监控节点占比与算力约束配置
+├── scripts/ # 数据加载、预处理、基线评测脚本
+│ ├── load_data.py
+│ ├── baseline_detection.py
+│ └── evaluation_metrics.py
+└── README.md
 
 ## 📋 Data Schema
 
