@@ -1,9 +1,4 @@
-## ⬇️ Data Download
 
-由于数据集原始文件（reprocessed_network.txt）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
-
-*   **📁 文件名称**: `reprocessed_network.txt` 
-*   **☁️ 下载地址**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
 # 🌐 LimitedPerception-Disinfo (LPD) Dataset
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
@@ -14,7 +9,13 @@
 
 > 📖 **面向受限感知能力条件的社交网络虚假信息检测与溯源基准数据集**  
 > 🏛️ 国家重点研发计划“网络空间安全治理”重点专项青年科学家项目 (Grant No. `SQ2022YFB3100001`)
+> 
+## ⬇️ Data Download
 
+由于数据集原始文件（reprocessed_network.txt）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
+
+*   **📁 文件名称**: `reprocessed_network.txt` 
+*   **☁️ 下载地址**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
 ## 📖 Overview
 
 传统社交网络虚假信息研究多基于“全量数据、完整拓扑、充足算力”的理想假设，严重脱离真实业务场景。**LPD (LimitedPerception-Disinfo)** 数据集首次以**“受限感知”为建模先验**，系统构建了覆盖内容不可得、拓扑不完全、资源受约束、时空不同步等现实约束的标注数据与仿真配置。
