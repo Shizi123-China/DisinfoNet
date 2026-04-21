@@ -42,6 +42,7 @@ LPD-Dataset/
 │   ├── load_data.py
 │   └── evaluation_metrics.py
 └── README.md
+```
 
 ## 📋 Data Schema
 
@@ -51,7 +52,9 @@ LPD-Dataset/
 | `source_id` | str | 传播起点 |
 | `target_id` | str | 传播终点 |
 
-
+## 📚 Citation
+```text
+If you use this dataset in your research, please cite the following paper:
 @article{LPD2024,
   title={LPD Dataset: A Benchmark for Social Network Disinformation Detection and Tracing under Limited Perception},
   author={[Author1], [Author2], [Author3], ...},
@@ -62,3 +65,4 @@ LPD-Dataset/
   publisher={},
   url={https://github.com/YourOrg/LPD-Dataset}
 }
+```
