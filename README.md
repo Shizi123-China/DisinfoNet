@@ -1,3 +1,9 @@
+## ⬇️ Data Download
+
+由于数据集原始文件（reprocessed_network.txt）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
+
+*   **📁 文件名称**: `reprocessed_network.txt` 
+*   **☁️ 下载地址**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
 # 🌐 LimitedPerception-Disinfo (LPD) Dataset
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
