@@ -53,16 +53,17 @@ LPD-Dataset/
 | `target_id` | str | 传播终点 |
 
 ## 📚 Citation
-```text
+
 If you use this dataset in your research, please cite the following paper:
-@article{LPD2024,
-  title={LPD Dataset: A Benchmark for Social Network Disinformation Detection and Tracing under Limited Perception},
-  author={[Author1], [Author2], [Author3], ...},
-  journal={[Journal/Conference Name]},
+```text
+@INPROCEEDINGS{11360386,
+  author={Shi, Jinchen and Yang, Hui and Qiu, Hongjie and Guo, Hao and Luo, Minnan and Zhao, Xiang},
+  booktitle={2025 IEEE 10th International Conference on Data Science in Cyberspace (DSC)}, 
+  title={DisinfoNet: A Comprehensive Dataset of Disinformation with Contents and Propagation Dynamics Over Social Networks}, 
+  year={2025},
   volume={},
-  pages={},
-  year={2024},
-  publisher={},
-  url={https://github.com/YourOrg/LPD-Dataset}
-}
+  number={},
+  pages={303-310},
+  keywords={Location awareness;Social networking (online);Noise reduction;Noise;Interference;Internet;Reliability;Information diffusion;Fake news;Faces;Disinformation;Dataset;Network dismantling;Social network},
+  doi={10.1109/DSC67331.2025.00046}}
 ```
