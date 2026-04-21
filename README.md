@@ -26,3 +26,67 @@
 | 🎯 **多任务标签** | 同步提供 `检测标签`（图文不符/图像伪造/文本歪曲）、`溯源源集`、`传播风险等级` | 全流程闭环验证 |
 
 ## 📁 Dataset Structure
+
+## 📋 Data Schema
+
+### 📍 节点表 (`nodes.csv`)
+| 字段 | 类型 | 说明 |
+|:---|:---|:---|
+| `node_id` | str | 脱敏用户标识 |
+| `platform` | str | 所属社交平台 |
+| `account_age` | int | 注册天数 |
+| `follower_count` | int | 粉丝数（对数化） |
+| `is_bot` | bool | 是否为机器账号 |
+| `observed_ratio` | float | 实际可观测比例 (0~1) |
+
+### 🔗 边表 (`edges.csv`)
+| 字段 | 类型 | 说明 |
+|:---|:---|:---|
+| `source_id` | str | 传播起点 |
+| `target_id` | str | 传播终点 |
+| `timestamp` | datetime | 交互/转发时间 |
+| `interaction_type` | enum | `retweet/reply/quote/like` |
+| `topology_available` | bool | 该边在当前场景是否可见 |
+
+### 🏷️ 标注表 (`labels.csv`)
+| 字段 | 类型 | 说明 |
+|:---|:---|:---|
+| `post_id` | str | 内容唯一标识 |
+| `is_disinfo` | bool | 是否虚假信息 |
+| `disinfo_type` | enum | `图文不符/图像伪造/文本歪曲/真实` |
+| `source_node_id` | str | 真实传播源头ID（若已知） |
+| `cascade_id` | str | 所属传播级联编号 |
+| `risk_level` | int | 早期传播风险等级 (1-5) |
+
+## 🚀 Quick Start
+
+```python
+import pandas as pd
+import networkx as nx
+from scripts.load_data import load_lpd_scenario
+
+# 1. 加载基础图结构与标签
+nodes = pd.read_csv('processed/graph/nodes.csv')
+edges = pd.read_csv('processed/graph/edges.csv')
+labels = pd.read_csv('processed/labels/labels.csv')
+
+G = nx.from_pandas_edgelist(edges, 'source_id', 'target_id', create_using=nx.DiGraph())
+
+# 2. 加载受限感知场景配置（例如：拓扑仅观测30%）
+scenario_G, config = load_lpd_scenario('scenarios/topology_pruned/ratio_0.3.json')
+
+# 3. 提取多模态内容特征（若使用预提取向量）
+content_feats = pd.read_csv('processed/content/multimodal_embeddings.csv')
+
+print(f"✅ 场景加载完成: 节点数={G.number_of_nodes()}, 观测比例={config['observed_ratio']}")
+
+@article{LPD2024,
+  title={LPD Dataset: A Benchmark for Social Network Disinformation Detection and Tracing under Limited Perception},
+  author={[Author1], [Author2], [Author3], ...},
+  journal={[Journal/Conference Name]},
+  volume={},
+  pages={},
+  year={2024},
+  publisher={},
+  url={https://github.com/YourOrg/LPD-Dataset}
+}
