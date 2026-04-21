@@ -67,3 +67,28 @@ If you use this dataset in your research, please cite the following paper:
   keywords={Location awareness;Social networking (online);Noise reduction;Noise;Interference;Internet;Reliability;Information diffusion;Fake news;Faces;Disinformation;Dataset;Network dismantling;Social network},
   doi={10.1109/DSC67331.2025.00046}}
 ```
+---
+
+## ⚖️ License & Ethics
+
+> **🔒 Data License**: This dataset is released under the **CC BY-NC-SA 4.0** license. It is strictly for **academic research** purposes only. Commercial use is prohibited.
+>
+> **⚖️ Compliance Statement**: The dataset has been strictly desensitized in accordance with the *Cybersecurity Law*, *Data Security Law*, and *Personal Information Protection Law* of the PRC. It contains no real privacy information that can identify individuals. Users must sign the "Academic Research Data Usage Commitment" (see `docs/ethics_commitment.pdf`) before use.
+>
+> **🚫 Prohibited Uses**: Strictly prohibited for training disinformation generation models, coordinating internet water armies, user profiling/tracking, or any other scenarios violating ethics or laws.
+
+---
+
+## 🏛️ 致谢
+
+本数据集由以下单位联合构建：
+
+- 🎓 **国防科技大学** (系统工程学院)
+- 🎓 **西安交通大学** (电子与信息学部)
+- 🏢 **中国电子科技集团第三十研究所**
+
+
+---
+
+### ⭐ 支持
+如果你觉得  DisinfoNet 有用，请 **Star 本仓库** 并 **引用我们的论文**!
