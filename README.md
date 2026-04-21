@@ -3,7 +3,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Shizi123-China/DisinfoNet)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-green)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-<![Python 3.8+>](https://www.python.org/downloads/release/python-380/)
+[<![Python 3.8+>](https://www.python.org/downloads/release/python-380/)](https://github.com/Shizi123-China/DisinfoNet)
 [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/11360386)
 ![GitHub stars](https://img.shields.io/github/stars/Shizi123-China/DisinfoNet?style=social)
 
