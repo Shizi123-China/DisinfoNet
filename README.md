@@ -4,8 +4,8 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-green)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Paper](https://img.shields.io/badge/Paper-Accepted-red)
-![GitHub stars](https://img.shields.io/github/stars/YourOrg/LPD-Dataset?style=social)
+![Paper](https://ieeexplore.ieee.org/document/11360386)
+![GitHub stars](https://img.shields.io/github/stars/Shizi123-China/LPD-Dataset?style=social)
 
 > 📖 **面向受限感知能力条件的社交网络虚假信息检测与溯源基准数据集**  
 > 🏛️ 国家重点研发计划“网络空间安全治理”重点专项青年科学家项目 (Grant No. `2022YFB3102600`)
