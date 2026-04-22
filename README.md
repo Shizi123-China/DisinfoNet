@@ -36,7 +36,7 @@
 ```text
 LPD-Dataset/
 ├── raw/
-│   └── a.txt                     # 核心原始传播日志（需从Google Drive下载并放入此目录）
+│   └── reprocessed_network.txt                     # 核心原始传播日志（需从Google Drive下载并放入此目录）
 ├── processed/                    # (可选) 存放预处理后的数据
 ├── scripts/                      # 数据加载与评测脚本
 │   ├── load_data.py
