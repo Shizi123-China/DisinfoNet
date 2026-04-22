@@ -61,8 +61,6 @@ If you use this dataset in your research, please cite the following paper:
   booktitle={2025 IEEE 10th International Conference on Data Science in Cyberspace (DSC)}, 
   title={DisinfoNet: A Comprehensive Dataset of Disinformation with Contents and Propagation Dynamics Over Social Networks}, 
   year={2025},
-  volume={},
-  number={},
   pages={303-310},
   keywords={Location awareness;Social networking (online);Noise reduction;Noise;Interference;Internet;Reliability;Information diffusion;Fake news;Faces;Disinformation;Dataset;Network dismantling;Social network},
   doi={10.1109/DSC67331.2025.00046}}
