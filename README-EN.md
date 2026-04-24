@@ -12,15 +12,16 @@
 > 
 ## ⬇️ Data Download
 
-由于数据集原始文件（reprocessed_network.txt）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
+Due to the large file size of the original dataset file (reprocessed_network.txt), it cannot be directly hosted in the GitHub repository. Please manually download it and place it in your local directory before use.
 
-*   **📁 文件名称**: `reprocessed_network.txt` 
-*   **☁️ 下载地址**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
+*   **📁 File Name**: `reprocessed_network.txt` 
+*   **☁️ Download Link**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
 ## 📖 Overview
 
-传统社交网络虚假信息研究多基于“全量数据、完整拓扑、充足算力”的理想假设，严重脱离真实业务场景。**DisinfoNet** 数据集首次以**“受限感知”为建模先验**，系统构建了覆盖内容不可得、拓扑不完全、资源受约束、时空不同步等现实约束的标注数据与仿真配置。
+Traditional research on social network disinformation is mostly based on ideal assumptions of full-scale data, complete topology, and sufficient computing resources, which are severely disconnected from real-world application scenarios. For the first time, the **DisinfoNet** dataset takes limited perception as a modeling prior, and systematically constructs annotated data and simulation configurations covering realistic constraints such as unavailable content, incomplete topology, resource limitations, and spatiotemporal asynchronization.
 
-本数据集旨在支撑虚假信息**传播动力学建模、监控节点高效优选、多模态快速检测、跨时空精准溯源**等核心任务，为学术界与工业界提供可复现、可对比、可迁移的基准评测平台。
+
+This dataset supports core tasks including disinformation **propagation dynamics modeling, efficient monitoring node selection, multi-modal rapid detection, and cross-spatiotemporal accurate tracing.** It provides a reproducible, comparable, and transferable benchmark evaluation platform for both academia and industry.
 
 
 ## 📁 Dataset Structure
@@ -37,11 +38,11 @@ DisinfoNet-Dataset/
 
 ## 📋 Data Schema
 
-### 🔗 边表 (`edges.csv`)
-| 字段 | 类型 | 说明 |
+### 🔗 Edge Table (`edges.csv`)
+| Field | Type | Description |
 |:---|:---|:---|
-| `source_id` | str | 传播起点 |
-| `target_id` | str | 传播终点 |
+| `source_id` | str | Propagation source node ID |
+| `target_id` | str | 	Propagation destination node ID |
 
 ## 📚 Citation
 
@@ -68,16 +69,16 @@ If you use this dataset in your research, please cite the following paper:
 
 ---
 
-## 🏛️ 致谢
+## 🏛️ Acknowledgements
 
-本数据集由以下单位联合构建：
+This dataset is jointly constructed by the following institutions:
 
-- 🎓 **国防科技大学** (系统工程学院)
-- 🎓 **西安交通大学** (电子与信息学部)
-- 🏢 **中国电子科技集团第三十研究所**
+- 🎓 **National University of Defense Technology** (College of Systems Engineering)
+- 🎓 **Xi'an Jiaotong University** (Faculty of Electronic and Information Engineering)
+- 🏢 **The 30th Research Institute of China Electronics Technology Group Corporation**
 
 
 ---
 
-## ⭐ 支持
-如果你觉得  DisinfoNet 有用，请 **Star 本仓库** 并 **引用我们的论文**!
+## ⭐ Support
+If you find DisinfoNet helpful, please **star this repository** and **cite our paper!**
