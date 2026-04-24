@@ -1,5 +1,5 @@
 
-# 🌐 DisinfoNet Dataset
+# 🌐 DisinfoNet 数据集
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Shizi123-China/DisinfoNet)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-green)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -10,7 +10,7 @@
 > 📖 **面向受限感知能力条件的社交网络虚假信息检测与溯源基准数据集**  
 > 🏛️ 国家重点研发计划“网络空间安全治理”重点专项青年科学家项目 (Grant No. `2022YFB3102600`)
 > 
-## ⬇️ Data Download
+## ⬇️ 数据下载
 
 由于数据集原始文件（reprocessed_network.txt）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
 
@@ -23,7 +23,7 @@
 本数据集旨在支撑虚假信息**传播动力学建模、监控节点高效优选、多模态快速检测、跨时空精准溯源**等核心任务，为学术界与工业界提供可复现、可对比、可迁移的基准评测平台。
 
 
-## 📁 Dataset Structure
+## 📁 数据结构
 ```text
 DisinfoNet-Dataset/
 ├── raw/
@@ -37,7 +37,7 @@ DisinfoNet-Dataset/
 
 ## 📋 Data Schema
 
-### 🔗 边表 (`edges.csv`)
+### 🔗 边表 (`reprocessed_network.txt`)
 | 字段 | 类型 | 说明 |
 |:---|:---|:---|
 | `source_id` | str | 传播起点 |
@@ -58,13 +58,13 @@ If you use this dataset in your research, please cite the following paper:
 ```
 ---
 
-## ⚖️ License & Ethics
+## ⚖️ 许可协议与伦理规范
 
-> **🔒 Data License**: This dataset is released under the [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. It is strictly for **academic research** purposes only. Commercial use is prohibited.
+> **🔒 数据许可**: 本数据集基于 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/) 知识共享协议发布。仅限**学术研究**用途，严禁任何商业使用。
 >
-> **⚖️ Compliance Statement**: The dataset has been strictly desensitized in accordance with the *Cybersecurity Law*, *Data Security Law*, and *Personal Information Protection Law* of the PRC. It contains no real privacy information that can identify individuals.
+> **⚖️ 合规声明**: 本数据集已严格按照《中华人民共和国网络安全法》《数据安全法》《个人信息保护法》完成脱敏处理，不含任何可识别自然人的真实隐私信息。
 >
-> **🚫 Prohibited Uses**: Strictly prohibited for training disinformation generation models, coordinating internet water armies, user profiling/tracking, or any other scenarios violating ethics or laws.
+> **🚫 禁止用途**: 严禁用于训练虚假信息生成模型、组织网络水军、用户画像追踪，以及其他一切违反伦理道德与法律法规的场景。
 
 ---
 
