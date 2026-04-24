@@ -1,6 +1,8 @@
 
 # 🌐 DisinfoNet 数据集
+
 **语言: [English](README-EN.md) | [中文](README-CN.md)**
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Shizi123-China/DisinfoNet)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-green)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/release/python-380/)
