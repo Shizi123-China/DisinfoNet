@@ -30,9 +30,9 @@ This dataset supports core tasks including disinformation **propagation dynamics
 ```text
 DisinfoNet-Dataset/
 ├── raw/
-│   └── reprocessed_network.txt                     # 核心原始传播日志（需从Google Drive下载并放入此目录）
-├── processed/                    # (可选) 存放预处理后的数据
-├── scripts/                      # 数据加载与评测脚本
+│   └── reprocessed_network.txt                      # Core raw propagation log (please download from Google Drive and place it in this directory)
+├── processed/                    # (Optional) Store preprocessed data
+├── scripts/                      # Data loading and evaluation scripts
 │   ├── load_data.py
 │   └── evaluation_metrics.py
 └── README.md
