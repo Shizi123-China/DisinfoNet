@@ -46,6 +46,7 @@ DisinfoNet-Dataset/
 | `source_id` | str | Propagation source node ID |
 | `target_id` | str | 	Propagation destination node ID |
 
+<a id="citation"></a>
 ## 📚 Citation
 
 If you use this dataset in your research, please cite the following paper:
@@ -84,3 +85,4 @@ This dataset is jointly constructed by the following institutions:
 
 ## ⭐ Support
 If you find DisinfoNet helpful, please **star this repository** and **cite our paper!**
+If you find DisinfoNet helpful, please star this repository and **[cite our paper](#citation)**!
