@@ -45,7 +45,7 @@ DisinfoNet-Dataset/
 
 ## 📚 Citation
 
-If you use this dataset in your research, please cite the following paper:
+如果您在研究中使用本数据集，请引用以下论文：
 ```text
 @INPROCEEDINGS{11360386,
   author={Shi, Jinchen and Yang, Hui and Qiu, Hongjie and Guo, Hao and Luo, Minnan and Zhao, Xiang},
