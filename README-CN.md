@@ -18,7 +18,7 @@
 
 *   **📁 文件名称**: `reprocessed_network.txt` 
 *   **☁️ 下载地址**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
-## 📖 Overview
+## 📖 概述
 
 传统社交网络虚假信息研究多基于“全量数据、完整拓扑、充足算力”的理想假设，严重脱离真实业务场景。**DisinfoNet** 数据集首次以**“受限感知”为建模先验**，系统构建了覆盖内容不可得、拓扑不完全、资源受约束、时空不同步等现实约束的标注数据与仿真配置。
 
@@ -37,7 +37,7 @@ DisinfoNet-Dataset/
 └── README.md
 ```
 
-## 📋 Data Schema
+## 📋 数据字段说明 
 
 ### 🔗 边表 (`reprocessed_network.txt`)
 | 字段 | 类型 | 说明 |
@@ -46,7 +46,7 @@ DisinfoNet-Dataset/
 | `target_id` | str | 传播终点 |
 
 <a id="引用"></a>
-## 📚 Citation
+## 📚 引用
 
 如果您在研究中使用本数据集，请引用以下论文：
 ```text
