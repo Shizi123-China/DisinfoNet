@@ -45,6 +45,7 @@ DisinfoNet-Dataset/
 | `source_id` | str | 传播起点 |
 | `target_id` | str | 传播终点 |
 
+<a id="引用"></a>
 ## 📚 Citation
 
 如果您在研究中使用本数据集，请引用以下论文：
@@ -82,4 +83,4 @@ DisinfoNet-Dataset/
 ---
 
 ## ⭐ 支持
-如果你觉得  DisinfoNet 有用，请 **Star 本仓库** 并 **引用我们的论文**!
+如果本数据集对你的研究有帮助，欢迎点亮仓库 Star，并**[引用我们的论文](#引用)**！
