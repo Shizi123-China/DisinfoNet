@@ -30,7 +30,7 @@
 DisinfoNet-Dataset/
 ├── raw/
 │   ├──  reprocessed_network.txt                     # 核心原始传播日志（需从Google Drive下载并放入此目录）
-│   └── user.json                                   #存储了爬取的内容信息及传播级联数据（需申请获取）
+│   └── users.json                                   #存储了爬取的内容信息及传播级联数据（需申请获取）
 ├── processed/                    # (可选) 存放预处理后的数据
 ├── scripts/                      # 数据加载与评测脚本
 │   ├── load_data.py
@@ -46,7 +46,7 @@ DisinfoNet-Dataset/
 | `source_id` | str | 传播起点 |
 | `target_id` | str | 传播终点 |
 
-### 📄 节点表 (`user.json`)
+### 📄 信息与级联结构表 (`users.json`)
 | 字段 | 类型 | 说明 |
 |:---|:---|:---|
 | `mblogid` | str | 帖子唯一标识 |
