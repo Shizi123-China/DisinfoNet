@@ -30,7 +30,7 @@
 DisinfoNet-Dataset/
 ├── raw/
 │   ├──  reprocessed_network.txt                     # 核心原始传播日志（需从Google Drive下载并放入此目录）
-    └── user.json                                   #存储了爬取的内容信息及传播级联数据（需申请获取）
+│    └── user.json                                   #存储了爬取的内容信息及传播级联数据（需申请获取）
 ├── processed/                    # (可选) 存放预处理后的数据
 ├── scripts/                      # 数据加载与评测脚本
 │   ├── load_data.py
