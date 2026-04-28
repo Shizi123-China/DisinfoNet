@@ -45,6 +45,17 @@ DisinfoNet-Dataset/
 | `source_id` | str | 传播起点 |
 | `target_id` | str | 传播终点 |
 
+### 📄 节点表 (`user.json`)
+| 字段 | 类型 | 说明 |
+|:---|:---|:---|
+| `mblogid` | str | 帖子唯一标识 |
+| `user_id` | str | 用户唯一标识 |
+| `content` | str | 帖子文本内容 |
+| `create_time` | str | 帖子发布时间 |
+| `comments_info` | list | 评论详情列表（级联结构） |
+| `reposts_info` | list | 转发详情列表 |
+| `comments` | int | 评论总数 |
+| `reposts` | int | 转发总数 |
 <a id="引用"></a>
 ## 📚 引用
 
