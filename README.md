@@ -31,7 +31,7 @@ This dataset supports core tasks including disinformation **propagation dynamics
 DisinfoNet-Dataset/
 ├── raw/
 │   ├── reprocessed_network.txt                      # Core raw propagation log (please download from Google Drive and place it in this directory)
-│   └── user.json                                    # user.json stores the crawled content and propagation cascades (available upon request)
+│   └── users.json                                    # user.json stores the crawled content and propagation cascades (available upon request)
 ├── processed/                    # (Optional) Store preprocessed data
 ├── scripts/                      # Data loading and evaluation scripts
 │   ├── load_data.py
@@ -47,7 +47,7 @@ DisinfoNet-Dataset/
 | `source_id` | str | Propagation source node ID |
 | `target_id` | str | 	Propagation destination node ID |
 
-### 📄 ENode Table (`edges.csv`)
+### 📄 Information and Cascades Table(`users.json`)
 | Field | Type | Description |
 |:---|:---|:---|
 | `mblogid` | str | Unique post identifier |
