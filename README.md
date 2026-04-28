@@ -14,9 +14,9 @@
 > 
 ## ⬇️ Data Download
 
-Due to the large file size of the original dataset file (reprocessed_network.txt), it cannot be directly hosted in the GitHub repository. Please manually download it and place it in your local directory before use.
+Due to the large file size of the original dataset file (DisinfoNet-Dataset), it cannot be directly hosted in the GitHub repository. Please manually download it and place it in your local directory before use.
 
-*   **📁 File Name**: `reprocessed_network.txt` 
+*   **📁 File Name**: `DisinfoNet-Dataset` 
 *   **☁️ Download Link**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
 ## 📖 Overview
 
