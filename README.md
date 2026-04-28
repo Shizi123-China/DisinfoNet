@@ -55,7 +55,7 @@ DisinfoNet-Dataset/
 | `content` | str | Text content of the post |
 | `create_time` | str | Timestamp of post creation |
 | `comments_info` | list | List of detailed comments |
-| `reposts_info` | list | List of detailed reposts |
+| `reposts_info` | list | List of detailed reposts (Propagation Cascades) |
 | `comments` | int | Total number of comments |
 | `reposts` | int | Total number of reposts |
 
