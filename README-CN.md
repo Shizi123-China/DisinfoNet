@@ -14,9 +14,9 @@
 > 
 ## ⬇️ 数据下载
 
-由于数据集原始文件（reprocessed_network.txt）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
+由于数据集原始文件（DisinfoNet-Dataset）体积过大，无法直接托管在 GitHub 仓库中。请在使用前手动下载并放置到本地目录。
 
-*   **📁 文件名称**: `reprocessed_network.txt` 
+*   **📁 文件名称**: `DisinfoNet-Dataset` 
 *   **☁️ 下载地址**: [Google Drive Link - Click to Download](https://drive.google.com/file/d/159NbiBs0YBKJt_j5oUXkF9uir5sSDBSR/view)
 ## 📖 概述
 
