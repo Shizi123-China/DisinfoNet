@@ -1,7 +1,7 @@
 
 # 🌐 DisinfoNet Dataset
 
-**Languages: [English](README-EN.md) | [中文](README-CN.md)**
+**Languages: [English](README.md) | [中文](README-CN.md)**
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Shizi123-China/DisinfoNet)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-green)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
